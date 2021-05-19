@@ -410,3 +410,22 @@ function reverseWords(str) {
  console.log(str)
  
 }
+
+// 8 kyu
+// Remove exclamation marks
+
+// Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
+
+// Solution:
+
+function removeExclamationMarks(s) {
+  // check if it includes "!" 
+ 
+ if(s.includes('!')){
+   // if it is true remove '!'
+  s = s.replace(/!/g, '')
+ } 
+   return s
+ 
+ 
+}
